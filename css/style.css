@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite; 
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    text-align: center; 
+    top: 0; 
+    color: plum; 
+    text-shadow: 4px 4px 2px black;  
+}
+
+#canvas {
+    float: right; 
+    top:75%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.toolbox {
+    float: left;  
+    width: 25%; 
+    border: solid; 
+    border-width: 5px; 
+    border-color: blue; 
+    text-align: center; 
+    box-shadow:0px 2px 2px 	#A0A0A0; 
+}
+
+@media screen and (max-width: 598px) {
+    .toolbox{
+        float: none; 
+        margin: auto; 
+        width: 50%; 
+        border-color: magenta; 
+        box-shadow: blue; 
+    }
+    #canvas{
+        width: 100%;  
+    }
+}
+
+@media screen and (max-width: 769px){
+    #canvas{
+        width: 100%; 
+        border: 1px black; 
+    }
+}
